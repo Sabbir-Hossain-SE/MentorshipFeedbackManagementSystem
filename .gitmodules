@@ -1,0 +1,3 @@
+[submodule "src/components/global"]
+	path = src/components/global
+	url = https://gitlab.com/hipdevteam/afglobalcomponents

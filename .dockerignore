@@ -1,0 +1,12 @@
+Dockerfile
+.dockerignore
+.gitignore
+README.md
+build
+node_modules
+.git
+.npmrc
+npm-debug.log
+.prettierrc
+./src/.prettierrc
+./src/.eslintrc

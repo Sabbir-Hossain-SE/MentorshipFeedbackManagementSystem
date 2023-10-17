@@ -1,0 +1,23 @@
+.custom_textfield {
+    margin: 4px 0px 12px 0px;
+}
+.custom_textfield div input {
+    padding: 10px 13px;
+    height: 46px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #827eaa;
+    width: 100%;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 0;
+    height: unset !important;
+    max-height: 46px;
+    border: 2px solid #e8e7ef;
+    box-shadow: unset;
+    transition: box-shadow 0.3s, border 0.3s, -webkit-box-shadow 0.3s;
+    outline: none;
+    background-color: transparent;
+    box-shadow: unset;
+}

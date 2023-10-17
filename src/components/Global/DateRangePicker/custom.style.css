@@ -1,0 +1,396 @@
+.date-range-wrapper .global__datepicker__wrapper {
+    width: 100%;
+    max-width: 660px;
+    min-width: 660px;
+    padding-bottom: 20px;
+}
+.date-range-wrapper .global__datepicker__wrapper .PrivatePickersSlideTransition-root {
+    min-width: 318px;
+    min-height: 228px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    .MuiButtonBase-root.MuiPickersDay-root:hover {
+    border-radius: 4px !important;
+}
+.date-range-wrapper .global__datepicker__wrapper > div:nth-child(2) {
+    height: 345px !important;
+}
+.date-range-wrapper .global__datepicker__wrapper > div:nth-child(2) > div:nth-child(1) {
+    border-color: rgba(42, 46, 52, 0.23) !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    span {
+    width: 36px;
+    height: 36px !important;
+    border-radius: 4px !important;
+}
+
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .MuiDateRangePickerDay-rangeIntervalPreview
+    .Mui-selected {
+    background-color: #2578ff !important;
+    color: #fff !important;
+    border-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .MuiDateRangePickerDay-root.MuiDateRangePickerDay-rangeIntervalDayHighlight {
+    background-color: rgba(37, 120, 255, 0.08) !important;
+}
+.datepicker__dark
+    .MuiDateRangePickerDay-root.MuiDateRangePickerDay-rangeIntervalDayHighlight
+    .MuiDateRangePickerDay-day {
+    color: #fff;
+}
+
+.datepicker__light
+    .MuiDateRangePickerDay-root.MuiDateRangePickerDay-rangeIntervalDayHighlight
+    .MuiDateRangePickerDay-day {
+    color: rgba(42, 46, 52, 1);
+}
+
+.date-range-wrapper
+    .global__datepicker__wrapper
+    > div
+    :nth-child(1)
+    > :nth-child(1)
+    .MuiDateRangePickerDay-root:first-child {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    > div
+    :nth-child(1)
+    > :nth-child(1)
+    .MuiDateRangePickerDay-root:last-child {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    > div
+    :nth-child(1)
+    > :nth-child(2)
+    .MuiDateRangePickerDay-root:last-child {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    > div
+    :nth-child(1)
+    > :nth-child(2)
+    .MuiDateRangePickerDay-root:first-child {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    > div
+    :nth-child(1)
+    > :nth-child(3)
+    .MuiDateRangePickerDay-root:first-child {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    > div
+    :nth-child(1)
+    > :nth-child(3)
+    .MuiDateRangePickerDay-root:last-child {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+
+/* right picker */
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    :nth-child(4)
+    .MuiDateRangePickerDay-root:first-child {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    :nth-child(4)
+    .MuiDateRangePickerDay-root:last-child {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    :nth-child(5)
+    .MuiDateRangePickerDay-root:first-child {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+
+/* first child */
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    > div:first-child
+    .MuiDateRangePickerDay-rangeIntervalDayHighlight:nth-child(1) {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    > div:first-child
+    .MuiDateRangePickerDay-rangeIntervalDayHighlight:nth-child(2) {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    > div:first-child
+    .MuiDateRangePickerDay-rangeIntervalDayHighlight:nth-child(3) {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    > div:first-child
+    .MuiDateRangePickerDay-rangeIntervalDayHighlight:nth-child(4) {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    > div:first-child
+    .MuiDateRangePickerDay-rangeIntervalDayHighlight:nth-child(5) {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    > div:first-child
+    .MuiDateRangePickerDay-rangeIntervalDayHighlight:nth-child(6) {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+
+/* first child end */
+
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    > div:last-child
+    .MuiDateRangePickerDay-rangeIntervalDayHighlight:nth-child(2) {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    > div:last-child
+    .MuiDateRangePickerDay-rangeIntervalDayHighlight:nth-child(3) {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    > div:last-child
+    .MuiDateRangePickerDay-rangeIntervalDayHighlight:nth-child(4) {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    > div:last-child
+    .MuiDateRangePickerDay-rangeIntervalDayHighlight:nth-child(5) {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    > div:last-child
+    .MuiDateRangePickerDay-rangeIntervalDayHighlight:nth-child(6) {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    > div:last-child
+    .MuiDateRangePickerDay-rangeIntervalDayHighlight:nth-child(7) {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+
+/* hover border */
+.date-range-wrapper
+    .global__datepicker__wrapper
+    > div
+    :nth-child(1)
+    > :nth-child(1)
+    .MuiDateRangePickerDay-root:first-child
+    .MuiDateRangePickerDay-rangeIntervalPreview {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    > div
+    :nth-child(1)
+    > :nth-child(1)
+    .MuiDateRangePickerDay-root:nth-child(2)
+    .MuiDateRangePickerDay-rangeIntervalPreview {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    .MuiDateRangePickerDay-root
+    .MuiDateRangePickerDay-rangeIntervalPreview {
+    border-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    .MuiDateRangePickerDay-root
+    .MuiButtonBase-root.MuiPickersDay-root {
+    border-radius: 4px !important;
+    border: 0;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    > div
+    :nth-child(1)
+    > :nth-child(1)
+    .MuiDateRangePickerDay-root:nth-child(3)
+    .MuiDateRangePickerDay-rangeIntervalPreview {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    > div
+    :nth-child(1)
+    > :nth-child(1)
+    .MuiDateRangePickerDay-root:last-child
+    .MuiDateRangePickerDay-rangeIntervalPreview {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+.date-range-wrapper {
+    width: 100%;
+    max-width: 828px;
+}
+.date-range-wrapper > div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 100px; */
+}
+
+.date-range-wrapper .global__datepicker__wrapper {
+    order: 2;
+}
+
+.custom_action_buttons {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+}
+.custom_action_buttons .MuiButton-root {
+    margin-left: 0;
+    margin-top: 15px;
+}
+.custom_action_buttons .MuiButton-root:hover {
+    margin-left: 0;
+    margin-top: 15px;
+    background-color: #2578ff !important;
+    color: #f0f0f0 !important;
+}
+@media screen and (max-width: 1024px) {
+    .date-range-wrapper .global__datepicker__wrapper {
+        max-width: 660px;
+        min-width: 330px;
+    }
+    .date-range-wrapper .global__datepicker__wrapper > div:nth-child(2) {
+        height: 36px !important;
+    }
+    .date-range-wrapper .global__datepicker__wrapper {
+        height: 334px;
+    }
+}
+
+.date-range-wrapper .global__datepicker__wrapper .PrivatePickersSlideTransition-root {
+    min-height: 254px !important;
+}
+
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    :nth-child(5)
+    .MuiDateRangePickerDay-root:last-child {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px;
+}
+
+.date-range-wrapper
+    .global__datepicker__wrapper
+    > div
+    :nth-child(1)
+    > :nth-child(1)
+    .MuiDateRangePickerDay-root:last-child {
+    border-radius: 4px !important;
+}
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    :nth-child(6)
+    .MuiDateRangePickerDay-root:nth-child(1),
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    :nth-child(6)
+    .MuiDateRangePickerDay-root:nth-child(2),
+.date-range-wrapper
+    .global__datepicker__wrapper
+    .PrivatePickersSlideTransition-root
+    > div:first-child
+    :nth-child(6)
+    .MuiDateRangePickerDay-root:nth-child(3) {
+    border-radius: 4px !important;
+}

@@ -1,0 +1,62 @@
+.global__date__time__picker__wr
+    .PrivatePickersSlideTransition-root
+    .MuiPickersDay-root.Mui-selected {
+    border-radius: 4px;
+    background-color: #2578ff;
+    color: #fff;
+}
+.global__date__time__picker__wr
+    .PrivatePickersSlideTransition-root
+    .MuiPickersDay-root.MuiPickersDay-root:not(.Mui-selected) {
+    border-radius: 4px;
+    border-color: rgba(37, 120, 255, 0.08) !important;
+}
+.global__date__time__picker__wr .PrivatePickersSlideTransition-root .MuiPickersDay-root:hover {
+    border-radius: 4px;
+    background-color: rgba(37, 120, 255, 0.08) !important;
+}
+.global__date__time__picker__wr
+    .PrivatePickersSlideTransition-root
+    .MuiPickersDay-root.Mui-selected:hover {
+    background-color: #2578ff !important;
+}
+.global__date__time__picker__wr .MuiPaper-root .MuiButtonBase-root.MuiIconButton-root {
+    border-radius: 4px;
+    /*background-color: #2578ff;*/
+}
+.global__date__time__picker__wr
+    .MuiPaper-root
+    .MuiTabs-root
+    + div
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(2) {
+    background-color: #2578ff;
+}
+.global__date__time__picker__wr
+    .MuiPaper-root
+    .MuiTabs-root
+    + div
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(3) {
+    background-color: #2578ff;
+}
+.global__date__time__picker__wr
+    .MuiPaper-root
+    .MuiTabs-root
+    + div
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(3)
+    > div:nth-child(1) {
+    background-color: #2578ff;
+    border-color: #2578ff;
+}
+
+.global__date__time__picker__wr .MuiPaper-root .MuiTabs-scroller .Mui-selected .MuiSvgIcon-root {
+    color: #2578ff !important;
+}
+.global__date__time__picker__wr .MuiPaper-root .MuiTabs-scroller .MuiTabs-indicator {
+    background-color: #2578ff !important;
+}

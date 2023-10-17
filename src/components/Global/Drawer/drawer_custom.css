@@ -1,0 +1,96 @@
+.custom_drawer.active:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(42, 46, 52, 0.54);
+    z-index: 3;
+    display: block;
+}
+.custom_drawer .MuiPaper-root {
+    padding: 24px;
+    max-width: 850px;
+    box-sizing: border-box;
+    border-left: none;
+}
+.custom_drawer.css-1wibhyn-MuiDrawer-docked .MuiDrawer-paper {
+    padding: 0px;
+}
+.custom_drawer .custom_drawer.active {
+    z-index: 999 !important;
+    right: 0;
+    padding: 24px;
+}
+
+.custom_drawer .MuiDrawer-paper {
+    z-index: 99 !important;
+    right: -100%;
+    padding: 0;
+}
+
+.drawer-open .custom_drawer.active .MuiDrawer-paper {
+    right: 0;
+    padding: 24px;
+    /* top: 64px; */
+}
+
+.custom_drawer .drawer_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 32px;
+    margin-bottom: 26px;
+}
+.custom_drawer .drawer_title .MuiTypography-root {
+    font-size: 18px;
+    line-height: 24px;
+    line-height: 0.15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.custom_drawer .drawer_buttons .close_drawer.MuiButtonBase-root {
+    width: 36px;
+    height: 36px;
+    border-radius: 100px;
+    margin-left: 16px;
+}
+.custom_drawer .drawer_buttons .MuiSvgIcon-root {
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+}
+.custom_drawer .bordered {
+    border: 1px solid rgba(141, 146, 153, 0.38);
+    border-radius: 4px;
+    padding: 12px;
+    height: 100vh;
+}
+
+/* For scroll bar */
+
+.custom_drawer .drawer_content {
+    overflow-y: auto;
+    padding-top: 5px;
+    padding-right: 5px;
+    height: calc(100vh - 209px);
+}
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border-radius: 100px;
+}
+@media only screen and (max-width: 1024px) {
+    .custom_drawer .MuiPaper-root {
+        max-width: calc(100% - 0px);
+        padding: 0px;
+        /*right: -100%;*/
+    }
+}

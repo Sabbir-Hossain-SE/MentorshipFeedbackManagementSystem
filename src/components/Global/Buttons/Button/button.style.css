@@ -1,0 +1,61 @@
+button.af-btn {
+    text-transform: uppercase;
+}
+/*Setting font, line height, letter spacing for all button*/
+button.af-btn.MuiButton-sizeLarge {
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.46px;
+}
+button.af-btn.MuiButton-sizeMedium {
+    font-size: 14px;
+    line-height: 24px;
+}
+button.af-btn.MuiButton-sizeSmall {
+    font-size: 13px;
+    line-height: 22px;
+}
+/*Setting padding for text button*/
+button.af-btn.MuiButton-text.MuiButton-sizeLarge {
+    padding: 8px 11px;
+}
+button.af-btn.MuiButton-text.MuiButton-sizeMedium {
+    padding: 6px 8px;
+}
+button.af-btn.MuiButton-text.MuiButton-sizeSmall {
+    padding: 4px 5px;
+}
+/*Setting padding for containned varient button*/
+button.af-btn.MuiButton-contained.MuiButton-sizeLarge {
+    padding: 8px 22px;
+}
+button.af-btn.MuiButton-contained.MuiButton-sizeMedium {
+    padding: 6px 16px;
+}
+button.af-btn.MuiButton-contained.MuiButton-sizeSmall {
+    padding: 4px 10px;
+}
+button.af-btn.MuiButton-outlined.MuiButton-sizeLarge {
+    padding: 7px 21px;
+}
+/*Setting padding for outlined varient button*/
+button.af-btn.MuiButton-outlined.MuiButton-sizeMedium {
+    padding: 6px 15px;
+}
+
+button.af-btn.MuiButton-outlined.MuiButton-sizeSmall {
+    padding: 3px 9px;
+}
+button.af-btn.w-100 {
+    width: 100%;
+}
+
+button.af-btn.MuiButton-text.MuiButton-sizeLarge.text_capitalize {
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 1024px) {
+    button.af-btn.MuiButton-contained.MuiButton-sizeLarge {
+        padding: 8px 13px;
+    }
+}

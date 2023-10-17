@@ -1,0 +1,14 @@
+.project_name span {
+}
+
+.custom-dialog-wrapper .MuiDialog-paperWidthSm {
+    max-width: 508px;
+}
+
+.custom-dialog-wrapper .MuiDialog-paperWidthMd {
+    max-width: 1024px;
+}
+
+.custom-dialog-wrapper .MuiDialog-paperWidthLg {
+    max-width: 1200px;
+}

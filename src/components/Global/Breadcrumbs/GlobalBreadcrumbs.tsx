@@ -1,8 +1,8 @@
 /* eslint-disable react/no-array-index-key */
 import { Box, Breadcrumbs, StyledEngineProvider, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import { CustomGlobalBreadcrumbsPropsType } from "../../@types/CustomGlobalBreadcrumbsTypes";
-import { generateRandomString } from "../utils/helperFunction";
+import { CustomGlobalBreadcrumbsPropsType } from "../../../@types/components/Global/CustomGlobalBreadcrumbsTypes";
+import { generateRandomString } from "../../../utils/helperFunction";
 
 const GlobalBreadcrumbs: React.FC<CustomGlobalBreadcrumbsPropsType> = ({
     components,

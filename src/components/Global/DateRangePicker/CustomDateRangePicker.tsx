@@ -9,7 +9,10 @@ import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { subDays } from "date-fns";
 import React, { MouseEvent } from "react";
-import { CustomDateRangePickerProps, VariantType } from "../../@types/CustomDateRangePickerTypes";
+import {
+    CustomDateRangePickerProps,
+    VariantType
+} from "../../../@types/components/Global/CustomDateRangePickerTypes";
 import CustomButton from "../Buttons/Button/CustomButton";
 import CustomTextField from "../TextField/CustomTextField";
 import "./custom.style.css";
@@ -40,7 +43,7 @@ const CustomDateRangePicker: React.FC<CustomDateRangePickerProps> = ({
         thisMonth: false,
         customRange: true
     });
-    const handleChange = (date) => {
+    const handleChange = (date: any) => {
         setDateRange(date);
         setVariant({
             today: false,
@@ -202,7 +205,7 @@ const CustomDateRangePicker: React.FC<CustomDateRangePickerProps> = ({
                                     </Stack>
                                 )
                             }}
-                            renderInput={(startProps, endProps) => (
+                            renderInput={(startProps: any, endProps: any) => (
                                 <Box
                                     onClick={handleClick}
                                     sx={{
@@ -377,7 +380,7 @@ const CustomDateRangePicker: React.FC<CustomDateRangePickerProps> = ({
                                     </Stack>
                                 )
                             }}
-                            renderInput={(startProps, endProps) => (
+                            renderInput={(startProps: any, endProps: any) => (
                                 <Box
                                     onClick={handleClick}
                                     sx={{

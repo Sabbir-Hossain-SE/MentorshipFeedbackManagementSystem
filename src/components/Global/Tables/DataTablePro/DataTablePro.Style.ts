@@ -1,6 +1,6 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { CustomTheme } from "@mui/material";
 import { makeStyles } from "@mui/styles";
-// import { Theme } from "@mui/material";
 
 const useStyles = makeStyles((theme: CustomTheme) => ({
     root: {

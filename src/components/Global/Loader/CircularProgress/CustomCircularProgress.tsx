@@ -1,6 +1,6 @@
 import { Box, CircularProgress } from "@mui/material";
 import React from "react";
-import { CustomCircularProgressProps } from "../../../@types/CustomCircularProgressType";
+import { CustomCircularProgressProps } from "../../../../@types/components/Global/CustomCircularProgressType";
 
 const CustomCircularProgress: React.FunctionComponent<CustomCircularProgressProps> = ({
     color,

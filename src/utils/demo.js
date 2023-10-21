@@ -8,15 +8,29 @@ import {
 } from "./Constant/GlobalConstant";
 
 export const engineers = [
-    { id: 1, name: "Md Atif", designation: ENGINEER_MANAGERS, mentored_by: null },
-    { id: 2, name: "Md Tanim", designation: PRODUCT_MANAGERS, mentored_by: ENGINEER_MANAGERS },
-    { id: 3, name: "Md Rafi", designation: TEAM_LEAD, mentored_by: PRODUCT_MANAGERS },
-    { id: 4, name: "Md Shamim", designation: TEAM_LEAD, mentored_by: PRODUCT_MANAGERS },
-    { id: 5, name: "Md Rahim", designation: JUNIOR_ENGINEER, mentored_by: TEAM_LEAD },
-    { id: 6, name: "Md Raju", designation: JUNIOR_ENGINEER, mentored_by: TEAM_LEAD },
-    { id: 7, name: "Md Fahim", designation: JUNIOR_ENGINEER, mentored_by: TEAM_LEAD },
-    { id: 8, name: "Md Mamun", designation: JUNIOR_ENGINEER, mentored_by: TEAM_LEAD },
-    { id: 9, name: "Md Apurba", designation: JUNIOR_ENGINEER, mentored_by: TEAM_LEAD }
+    {
+        id: 2,
+        name: "Engineer Manage 1",
+        designation: ENGINEER_MANAGERS,
+        mentored_by: "null"
+    },
+    {
+        id: 3,
+        name: "Product Manager 1",
+        designation: PRODUCT_MANAGERS,
+        mentored_by: ENGINEER_MANAGERS
+    },
+    {
+        id: 4,
+        name: "Product Manager 2",
+        designation: PRODUCT_MANAGERS,
+        mentored_by: ENGINEER_MANAGERS
+    },
+    { id: 5, name: "Lead Engineer 1", designation: TEAM_LEAD, mentored_by: PRODUCT_MANAGERS },
+    { id: 6, name: "Junior Engineer 1", designation: JUNIOR_ENGINEER, mentored_by: TEAM_LEAD },
+    { id: 7, name: "Junior Engineer 2", designation: JUNIOR_ENGINEER, mentored_by: TEAM_LEAD },
+    { id: 8, name: "Junior Engineer 3", designation: JUNIOR_ENGINEER, mentored_by: TEAM_LEAD },
+    { id: 9, name: "Junior Engineer 4", designation: JUNIOR_ENGINEER, mentored_by: TEAM_LEAD }
 ];
 
 export const evaluations = [

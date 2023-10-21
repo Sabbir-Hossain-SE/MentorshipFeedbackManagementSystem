@@ -1,5 +1,5 @@
 import { StyledEngineProvider, TextField } from "@mui/material";
-import { CustomBaseTextFieldProps } from "../../@types/CustomTextFieldTypes";
+import { CustomBaseTextFieldProps } from "../../../@types/components/Global/CustomTextFieldTypes";
 import "./textField.style.css";
 
 const CustomTextField: React.FC<CustomBaseTextFieldProps> = ({
@@ -15,8 +15,6 @@ const CustomTextField: React.FC<CustomBaseTextFieldProps> = ({
     register = null,
     ...rest
 }) => {
-    // Please assign your default style classes which are include in style file
-    // custom_textfield
     const defaultClasses = "";
     const classes = `${defaultClasses} ${customClass}`;
     const style = {

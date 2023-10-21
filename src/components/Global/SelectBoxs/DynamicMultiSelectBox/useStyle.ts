@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { Theme } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 

@@ -1,11 +1,10 @@
 /* eslint-disable react/no-array-index-key */
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
-import { CustomHeaderPropsType } from "../../@types/CustomHeaderTypes";
+import { CustomHeaderPropsType } from "../../../@types/components/Global/CustomHeaderTypes";
+import { generateRandomString } from "../../../utils/helperFunction";
 import GlobalBreadcrumbs from "../Breadcrumbs/GlobalBreadcrumbs";
 import CustomButton from "../Buttons/Button/CustomButton";
-// import CustomIconButton from "../Buttons/IconButton/CustomIconButton";
-import { generateRandomString } from "../utils/helperFunction";
 
 const CustomHeader: React.FC<CustomHeaderPropsType> = ({
     headerText = "header",

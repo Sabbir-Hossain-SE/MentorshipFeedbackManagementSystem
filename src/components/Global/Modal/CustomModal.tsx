@@ -1,7 +1,7 @@
 import ClearIcon from "@mui/icons-material/Clear";
 import { Box, Dialog, DialogContent, DialogTitle, Typography } from "@mui/material";
 import React from "react";
-import { CustomModalProps } from "../../@types/CustomModalTypes";
+import { CustomModalProps } from "../../../@types/components/Global/CustomModalTypes";
 import CustomIconButton from "../Buttons/IconButton/CustomIconButton";
 
 export interface DialogTitleProps {
@@ -11,14 +11,6 @@ export interface DialogTitleProps {
     sx?: React.CSSProperties;
     onClose: () => void;
 }
-// const BootstrapDialog = styled(Dialog)(({ theme }) => ({
-//     "& .MuDialogContent-root": {
-//         padding: theme.spacing(2)
-//     },
-//     "& .MuDialogActions-root": {
-//         padding: theme.spacing(1)
-//     }
-// }));
 
 const BootstrapDialogTitle: React.FC<DialogTitleProps> = (props) => {
     const { children, title, onClose, ...other } = props;

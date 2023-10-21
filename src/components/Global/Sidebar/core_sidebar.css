@@ -1,0 +1,270 @@
+.schema_sidebar .MuiPaper-root {
+    border-right: 1px solid rgba(42, 46, 52, 0.12);
+}
+.schema_sidebar .logo_container {
+    height: 61px;
+    min-height: 60px;
+    border-bottom: 1px solid rgba(42, 46, 52, 0.12);
+    padding: 12px 20px 16px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+/* for Sidebar Logo */
+.schema_sidebar .logo_container img {
+    width: 78%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 22px;
+}
+
+/* For Sidebar Menu */
+.schema_sidebar .goback_link {
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    margin-bottom: 16px;
+    padding: 0 15px 0 18px;
+    cursor: pointer;
+}
+.schema_sidebar .goback_link .MuiSvgIcon-root {
+    width: 20px;
+    height: 20px;
+    color: #2578ff;
+    position: relative;
+    left: 1px;
+    transition: all 0.2s;
+}
+.schema_sidebar .goback_link:hover .MuiSvgIcon-root {
+    left: -3px;
+}
+.schema_sidebar .goback_link .MuiButton-root {
+    font-size: 14px;
+    line-height: 24px;
+    color: #2578ff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 9px;
+}
+.schema_sidebar .goback_link .MuiButton-root:hover {
+    background-color: transparent;
+}
+
+.schema_sidebar ul.sidebar_menu {
+    padding: 0;
+}
+.schema_sidebar ul.sidebar_menu .MuiButtonBase-root {
+    padding: 5px 25px 5px 18px;
+}
+.schema_sidebar ul.sidebar_menu .MuiButtonBase-root:hover {
+    background-color: rgba(37, 120, 255, 0.1);
+}
+.schema_sidebar ul.sidebar_menu .MuiButtonBase-root:hover .MuiTypography-root {
+    color: #2578ff;
+}
+.schema_sidebar ul.sidebar_menu .MuiButtonBase-root .MuiListItemIcon-root {
+    min-width: auto;
+    padding: 0;
+}
+.schema_sidebar ul.sidebar_menu .MuiButtonBase-root .MuiListItemIcon-root svg {
+    width: 18px;
+    height: 18px;
+}
+.schema_sidebar ul.sidebar_menu .MuiButtonBase-root .MuiListItemText-root {
+    padding-left: 14px;
+}
+.schema_sidebar ul.sidebar_menu .MuiButtonBase-root .MuiListItemText-root span {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+}
+
+/* Start Sidebar Submenu */
+.schema_sidebar .MuiTouchRipple-root {
+    display: none;
+}
+.schema_sidebar ul.sidebar_menu .sidebar_submenu_container {
+    display: block;
+}
+.schema_sidebar ul.sidebar_menu .sidebar_submenu_container .sidebar_menu_item {
+    display: flex;
+    align-items: center;
+}
+
+.schema_sidebar ul.sidebar_menu .sidebar_submenu_container .sidebar_submenu {
+    padding-left: 30px;
+}
+.schema_sidebar ul.sidebar_menu .sidebar_submenu_container .sidebar_submenu .MuiButtonBase-root {
+    margin-bottom: 5px;
+}
+.schema_sidebar
+    ul.sidebar_menu
+    .sidebar_submenu_container
+    .sidebar_submenu
+    .MuiButtonBase-root
+    .MuiListItemText-root {
+    padding-left: 8px;
+}
+.schema_sidebar
+    ul.sidebar_menu
+    .sidebar_submenu_container
+    .sidebar_submenu
+    .MuiButtonBase-root
+    .MuiListItemText-root
+    span {
+    line-height: 24px;
+}
+.schema_sidebar
+    ul.sidebar_menu
+    .sidebar_submenu_container
+    .sidebar_submenu
+    .MuiButtonBase-root
+    .right_arrow_icon
+    svg {
+    fill: #2578ff;
+    position: relative;
+    right: 3px;
+    transition: all 0.2s;
+}
+.schema_sidebar
+    ul.sidebar_menu
+    .sidebar_submenu_container
+    .sidebar_submenu
+    .MuiButtonBase-root:hover
+    .right_arrow_icon
+    svg {
+    right: 0;
+}
+.schema_sidebar
+    ul.sidebar_menu
+    .sidebar_submenu_container
+    .sidebar_submenu
+    .MuiButtonBase-root
+    .material-icons {
+    width: auto;
+    height: auto;
+}
+.schema_sidebar
+    ul.sidebar_menu
+    .sidebar_submenu_container
+    .sidebar_submenu
+    .MuiButtonBase-root
+    .secret_shop
+    svg {
+    vertical-align: top;
+    margin-top: 8px;
+    width: 18px;
+    height: 18px;
+}
+
+/* Sidebar Settings */
+
+.schema_sidebar ul.settings_menu {
+    padding: 10px 0 14px;
+    border-bottom: none;
+}
+.schema_sidebar
+    ul.settings_menu
+    .sidebar_submenu_container
+    .sidebar_submenu
+    .MuiButtonBase-root
+    .MuiListItemText-root {
+    padding-left: 0;
+}
+
+.schema_sidebar ul.settings_menu .sidebar_submenu_container .sidebar_menu_item {
+    padding: 0 25px 0 16px;
+}
+.schema_sidebar ul.settings_menu .sidebar_submenu_container .sidebar_submenu {
+    padding: 0;
+}
+.schema_sidebar ul.settings_menu .sidebar_submenu_container .sidebar_submenu .MuiButtonBase-root {
+    padding: 0 25px 0 46px;
+}
+.schema_sidebar
+    ul.settings_menu
+    .sidebar_submenu_container
+    .sidebar_submenu
+    .MuiButtonBase-root:hover,
+.schema_sidebar
+    ul.settings_menu
+    .sidebar_submenu_container
+    .sidebar_submenu
+    .MuiButtonBase-root:active {
+    background-color: rgba(37, 120, 255, 0.1);
+}
+.schema_sidebar
+    ul.settings_menu
+    .sidebar_submenu_container
+    .sidebar_submenu
+    .MuiButtonBase-root:hover
+    .MuiTypography-root {
+    color: #2578ff;
+}
+.schema_sidebar
+    ul.settings_menu
+    .sidebar_submenu_container
+    .sidebar_submenu
+    .MuiButtonBase-root:active
+    .MuiTypography-root {
+    color: #2a2e34;
+}
+
+/* user logout */
+
+.schema_sidebar .user_logout {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid rgba(42, 46, 52, 0.12);
+}
+
+.schema_sidebar .user_logout .dark_toggle {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+.schema_sidebar .user_logout .dark_toggle .MuiTypography-root,
+.schema_sidebar .user_logout .logout .MuiButton-root {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: capitalize;
+}
+.schema_sidebar .user_logout .dark_toggle .MuiButtonBase-root svg {
+    width: 24px;
+    height: 24px;
+}
+.schema_sidebar .user_logout .logout {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(37, 120, 255, 0.1);
+}
+.schema_sidebar .user_logout .logout .MuiTypography-root {
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    background-color: #2578ff;
+    font-size: 12px !important;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    color: #fff;
+    text-align: center;
+    margin-right: 5px;
+    overflow: hidden;
+}
+.MuiListItem-button.active {
+    background-color: rgba(37, 120, 255, 0.1);
+    color: #2578ff;
+}

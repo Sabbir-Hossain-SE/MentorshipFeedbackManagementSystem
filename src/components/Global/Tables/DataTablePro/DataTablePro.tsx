@@ -1,15 +1,8 @@
-/* eslint-disable react/no-unstable-nested-components */
 import SearchIcon from "@mui/icons-material/Search";
 import { Box, InputAdornment, Typography } from "@mui/material";
 import { DataGridPro } from "@mui/x-data-grid-pro";
-// import {
-//     DataGridProProps,
-//     DataGridProPropsWithoutDefaultValue
-// } from "@mui/x-data-grid-pro/models/dataGridProProps";
-// import { DataGridPropsWithDefaultValues } from "@mui/x-data-grid/internals";
 import React from "react";
-// import { CustomBaseTextFieldProps } from "../../../@types/CustomTextFieldTypes";
-import { ExtraProps } from "../../../@types/DataTableProTypes";
+import { ExtraProps } from "../../../../@types/components/Global/DataTableProTypes";
 import CustomTextField from "../../TextField/CustomTextField";
 import useStyles from "./DataTablePro.Style";
 import "./dataTablePro.style.css";

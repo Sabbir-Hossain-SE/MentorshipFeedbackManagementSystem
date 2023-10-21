@@ -1,5 +1,5 @@
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
-import { Box, Card, CardContent, CardMedia, IconButton, Typography, useTheme } from "@mui/material";
+import { Box, Card, CardContent, CardMedia, IconButton, Typography } from "@mui/material";
 import { IFeatureCard } from "interfaces/components/IFeatureCard";
 import scheduleImg from "../../assets/images/Schedule.png";
 import useFeatureCard from "./useFeatureCard";
@@ -7,10 +7,9 @@ import useFeatureCard from "./useFeatureCard";
 const FeatureCard: React.FC<IFeatureCard> = (props) => {
     const { feature } = props;
     const { handleFeature } = useFeatureCard();
-    const theme = useTheme();
 
     return (
-        <Card sx={{ display: "flex", width: "380px" }}>
+        <Card sx={{ display: "flex" }}>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
                 <CardContent sx={{ flex: "1 0 auto" }}>
                     <Typography component="div" variant="h6">

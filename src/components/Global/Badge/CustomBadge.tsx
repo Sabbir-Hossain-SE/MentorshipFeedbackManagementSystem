@@ -1,5 +1,5 @@
 import { Chip, StyledEngineProvider } from "@mui/material";
-import { CustomBadgeProps } from "../../@types/CustomBadgeTypes";
+import { CustomBadgeProps } from "../../../@types/components/Global/CustomBadgeTypes";
 
 const CustomBadge: React.FC<CustomBadgeProps> = ({
     label = "chip",

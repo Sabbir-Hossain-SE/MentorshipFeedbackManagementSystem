@@ -3,7 +3,7 @@ import { Box, Theme, Typography } from "@mui/material";
 import MuiDrawer from "@mui/material/Drawer";
 import { styled } from "@mui/material/styles";
 import React from "react";
-import { CustomDrawerPropsType } from "../../@types/CustomDrawerTypes";
+import { CustomDrawerPropsType } from "../../../@types/components/Global/CustomDrawerTypes";
 import CustomIconButton from "../Buttons/IconButton/CustomIconButton";
 import "./drawer_custom.css";
 

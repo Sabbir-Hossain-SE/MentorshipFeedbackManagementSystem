@@ -1,4 +1,4 @@
-import { Stack, Snackbar as MuiSnackbar } from "@mui/material";
+import { Snackbar as MuiSnackbar, Stack } from "@mui/material";
 import { useNotification } from "./NotificationProvider";
 import NotificationStack from "./NotificationStack";
 

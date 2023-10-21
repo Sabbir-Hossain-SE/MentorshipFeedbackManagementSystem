@@ -3,7 +3,7 @@ import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import { DateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import React from "react";
-import { CustomDateTimePickerProps } from "../../@types/CustomDateTimePickerType";
+import { CustomDateTimePickerProps } from "../../../@types/components/Global/CustomDateTimePickerType";
 import "./custom.style.css";
 
 const CustomDateTimePicker: React.FC<CustomDateTimePickerProps> = ({
@@ -50,7 +50,7 @@ const CustomDateTimePicker: React.FC<CustomDateTimePickerProps> = ({
                     }}
                     value={value}
                     onChange={handleChange}
-                    renderInput={(params) => <TextField {...params} />}
+                    renderInput={(params: any) => <TextField {...params} />}
                     {...register}
                     {...rest}
                 />

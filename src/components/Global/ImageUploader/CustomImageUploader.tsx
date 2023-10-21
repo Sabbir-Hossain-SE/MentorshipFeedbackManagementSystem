@@ -3,12 +3,12 @@
 import ImageIcon from "@mui/icons-material/Image";
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
-import { CustomImageUploaderProps } from "../../@types/CustomImageUploaderTypes";
+import { CustomImageUploaderProps } from "../../../@types/components/Global/CustomImageUploaderTypes";
 import CustomButton from "../Buttons/Button/CustomButton";
 import CustomConfirmModal from "../ConfirmModal/CustomConfirmModal";
-import "./custom.style.css";
-import NotificationProvider, { useNotification } from "../Notification/NotificationProvider";
 import Notification from "../Notification/Notification";
+import NotificationProvider, { useNotification } from "../Notification/NotificationProvider";
+import "./custom.style.css";
 
 const CustomImageUploader: React.FC<CustomImageUploaderProps> = ({
     handleLogoUpload,

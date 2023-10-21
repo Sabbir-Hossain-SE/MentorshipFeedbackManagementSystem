@@ -18,10 +18,13 @@ import {
     StyledEngineProvider
 } from "@mui/material";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { DynamicSelectBoxProps, OptionType } from "../../../@types/DynamicSelectBoxTypes";
+import {
+    DynamicSelectBoxProps,
+    OptionType
+} from "../../../../@types/components/Global/DynamicSelectBoxTypes";
 import CustomIconButton from "../../Buttons/IconButton/CustomIconButton";
-import RenderNoOptionFound from "../RenderNoOptionFound";
 import RenderName from "../RenderName";
+import RenderNoOptionFound from "../RenderNoOptionFound";
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
@@ -33,7 +36,7 @@ const MenuProps: object = {
         },
         autoFocus: false
     },
-    getContentAnchorEl: null,
+    // getContentAnchorEl: null,
     anchorOrigin: {
         vertical: "bottom",
         horizontal: "center"
@@ -64,7 +67,6 @@ const DynamicSelectBox = ({
     placeholder = "",
     handleChange,
     titleLength = 25,
-    inputLabelSize = "small",
     searchable = true,
     creatable = false,
     addSearchedOption,
@@ -81,7 +83,6 @@ const DynamicSelectBox = ({
     const [selectedValue, setSelectedValue] = useState<unknown>(
         register?.value ? register?.value : defaultValue || ""
     );
-    console.log({ tempOptions, searchValue, selectedValue });
     const inputRef = useRef<HTMLInputElement>(null);
     useEffect(() => {
         setTempOptions(options);
@@ -216,7 +217,6 @@ const DynamicSelectBox = ({
         }
         return null;
     }, [addOption, creatable, searchValue, searchable, tempOptions.length]);
-    console.count("Render");
     const modifiedDisableItems = findDisableItems(disableItems);
 
     const renderOptions = useMemo(() => {
@@ -240,7 +240,11 @@ const DynamicSelectBox = ({
                 }}
                 error={error}
             >
-                <InputLabel id="demo-dynamic-selectbox-label" size="small" color="secondary">
+                <InputLabel
+                    id="demo-dynamic-selectbox-label"
+                    size={size != "small" ? "normal" : "small"}
+                    color="secondary"
+                >
                     {label}
                 </InputLabel>
                 <Select

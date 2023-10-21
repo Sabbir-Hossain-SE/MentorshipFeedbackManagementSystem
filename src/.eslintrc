@@ -1,5 +1,4 @@
 {
-    // "parser": "@babel/eslint-parser",
     "parser": "@typescript-eslint/parser",
     "extends": [
         "airbnb",
@@ -15,7 +14,6 @@
         "plugin:@typescript-eslint/recommended",
         "plugin:prettier/recommended"
     ],
-    // "plugins": ["prettier", "react"],
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -94,17 +92,11 @@
         "prettier/prettier": ["error"],
         "react-hooks/exhaustive-deps": "warn",
         "react-hooks/rules-of-hooks": "error",
-        // "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
         "react/jsx-indent-props": [2, 4],
         "react/jsx-indent": [2, 4],
-        // "react/jsx-one-expression-per-line": [0],
         "react/prefer-stateless-function": [1],
         "react/static-property-placement": [1, "property assignment"],
-        // "react/prop-types": 0,
-        // "react/jsx-props-no-spreading": 0,
-        // "react/function-component-definition": 0,
         "no-shadow": 0,
-        // "react/react-in-jsx-scope": 0,
         "react/no-unstable-nested-components": 0,
         "@typescript-eslint/default-param-last": 0,
         "@typescript-eslint/naming-convention": 0,

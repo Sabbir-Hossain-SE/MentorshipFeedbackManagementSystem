@@ -1,5 +1,5 @@
 import { Skeleton } from "@mui/material";
-import { CustomSkeletonProps } from "../../@types/CustomSKeletonTypes";
+import { CustomSkeletonProps } from "../../../@types/components/Global/CustomSKeletonTypes";
 import "./custom.style.css";
 
 const CustomSkeleton: React.FC<CustomSkeletonProps> = ({

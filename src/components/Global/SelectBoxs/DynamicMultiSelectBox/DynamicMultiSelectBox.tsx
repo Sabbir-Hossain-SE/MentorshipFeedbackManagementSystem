@@ -19,7 +19,10 @@ import {
     StyledEngineProvider
 } from "@mui/material";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { DynamicMultiSelectBoxProps, OptionType } from "../../../@types/DynamicMultiSelectBoxTypes";
+import {
+    DynamicMultiSelectBoxProps,
+    OptionType
+} from "../../../../@types/components/Global/DynamicMultiSelectBoxTypes";
 import CustomIconButton from "../../Buttons/IconButton/CustomIconButton";
 import RenderName from "../RenderName";
 import RenderNoOptionFound from "../RenderNoOptionFound";
@@ -279,7 +282,7 @@ const DynamicMultiSelectBox = ({
                         sx={{
                             padding: "15px 0 0 15px"
                         }}
-                        classes={{ primary: classes.selectAllText }}
+                        // classes={{ primary: classes.selectAllText }}
                         secondary={`Add '${searchValue}'`}
                     />
                 </MenuItem>

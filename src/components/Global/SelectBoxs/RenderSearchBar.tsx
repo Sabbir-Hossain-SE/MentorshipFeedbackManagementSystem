@@ -1,9 +1,9 @@
-import React from "react";
-import { InputAdornment, InputBaseProps, MenuItem, OutlinedInput } from "@mui/material";
-import { debounce } from "lodash";
 import ClearIcon from "@mui/icons-material/Clear";
 import ManageSearchIcon from "@mui/icons-material/ManageSearch";
-import { OptionType } from "../../@types/DynamicMultiSelectBoxTypes";
+import { InputAdornment, InputBaseProps, MenuItem, OutlinedInput } from "@mui/material";
+import { debounce } from "lodash";
+import React from "react";
+import { OptionType } from "../../../@types/components/Global/DynamicMultiSelectBoxTypes";
 import CustomIconButton from "../Buttons/IconButton/CustomIconButton";
 
 interface IRenderSearchBar {

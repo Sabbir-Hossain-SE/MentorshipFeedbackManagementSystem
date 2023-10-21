@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { Button, CircularProgress, StyledEngineProvider } from "@mui/material";
-import { CustomButtonPropsType } from "../../../@types/CustomButtonType";
+import { CustomButtonPropsType } from "../../../../@types/components/Global/CustomButtonType";
 import "./button.style.css";
 
 const CustomButton: React.FC<CustomButtonPropsType> = ({

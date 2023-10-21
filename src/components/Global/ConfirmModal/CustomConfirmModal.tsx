@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import { TransitionProps } from "@mui/material/transitions";
 import * as React from "react";
-import { CustomConfirmModalProps } from "../../@types/CustomConfirmModalTypes";
+import { CustomConfirmModalProps } from "../../../@types/components/Global/CustomConfirmModalTypes";
 import CustomButton from "../Buttons/Button/CustomButton";
 import "./confirmModal.style.css";
 

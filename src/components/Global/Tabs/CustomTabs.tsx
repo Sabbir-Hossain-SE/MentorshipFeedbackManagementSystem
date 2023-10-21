@@ -1,8 +1,9 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { AppBar, Box, StyledEngineProvider, Tab, Tabs, Typography, useTheme } from "@mui/material";
 import * as React from "react";
 import SwipeableViews from "react-swipeable-views";
-import { CustomTabsPropsType } from "../../@types/CustomTabsTypes";
-import { generateRandomString } from "../utils/helperFunction";
+import { CustomTabsPropsType } from "../../../@types/components/Global/CustomTabsTypes";
+import { generateRandomString } from "../../../utils/helperFunction";
 
 interface PanelI {
     children?: React.ReactNode;

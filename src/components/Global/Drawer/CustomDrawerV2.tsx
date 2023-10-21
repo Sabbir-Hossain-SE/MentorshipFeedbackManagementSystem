@@ -1,7 +1,7 @@
 import ClearIcon from "@mui/icons-material/Clear";
 import { Box, Drawer, Typography } from "@mui/material";
 import * as React from "react";
-import { CustomDrawerV2PropsType } from "../../@types/CustomDrawerTypes";
+import { CustomDrawerV2PropsType } from "../../../@types/components/Global/CustomDrawerTypes";
 import CustomIconButton from "../Buttons/IconButton/CustomIconButton";
 import useCustomDrawerStyles from "./CustomDrawer.Style";
 

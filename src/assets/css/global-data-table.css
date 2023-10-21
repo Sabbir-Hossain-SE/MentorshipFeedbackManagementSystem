@@ -1,0 +1,60 @@
+.global__custom__data__table__wrapper{
+    box-shadow: 0 0 0 rgba(0,0,0,0.0) !important;
+}
+/*.global__custom__data__table__wrapper .MuiTableHead-root .MuiTableRow-root{*/
+/*    background-color: rgba(42,46,52,0.08);*/
+/*}*/
+
+.global__custom__data__table__wrapper1 .MuiTableRow-root .MuiTableCell-root:first-child{
+    width: 22%;
+
+}
+.global__custom__data__table__wrapper1 .MuiTableRow-root .MuiTableCell-root{
+    width: 13%;
+}
+
+.global__custom__data__table__wrapper1.preview .MuiTableRow-root .MuiTableCell-root{
+    width: 50%;
+}
+/*.global__custom__data__table__wrapper2 .MuiTableRow-root .MuiTableCell-root:first-child{*/
+/*    width: auto;*/
+
+/*}*/
+
+
+.global__custom__data__table__wrapper3 .MuiTableRow-root .MuiTableCell-root{
+    width: 100%;
+    max-width: 33%;
+}
+.global__custom__data__table__wrapper4 .MuiTableRow-root .MuiTableCell-root{
+    width: 100%;
+    max-width: 25%;
+}
+.global__custom__data__table__wrapper5 .MuiTableRow-root .MuiTableCell-root{
+    width: 100%;
+    max-width: 20%;
+}
+
+
+
+
+
+.global__custom__data__table__wrapper .MuiTableCell-root{
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+.global__custom__data__table__wrapper .MuiTableHead-root .MuiTableCell-root{
+    padding: 9.5px 12px !important;
+}
+.global__custom__data__table__wrapper .MuiTableBody-root .MuiTableCell-root{
+    padding: 22.5px 12px !important;
+    height: 70px !important;
+}
+
+
+/*global__custom__data__table__wrapper 2*/
+
+

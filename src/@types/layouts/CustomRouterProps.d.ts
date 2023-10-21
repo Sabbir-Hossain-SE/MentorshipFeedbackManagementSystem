@@ -1,14 +1,17 @@
 import { RouteProps } from "react-router-dom";
-import { AppName, ModuleName, SideBarMode } from "../Global";
+import { ModuleName } from "../Global";
 
 export interface CustomRouterProps extends RouteProps {
     pageTitle?: string | undefined;
-    appName: AppName;
-    haveAccess: boolean;
+    /**
+     * Sidebar Mode.
+     * @default 'default'
+     */
+    sideBarMode: SideBarMode;
+    featureName: string;
 }
 export interface CustomRouterPropsPublic extends RouteProps {
     pageTitle?: string | undefined;
-    appName?: AppName;
     error?: boolean;
 }
 

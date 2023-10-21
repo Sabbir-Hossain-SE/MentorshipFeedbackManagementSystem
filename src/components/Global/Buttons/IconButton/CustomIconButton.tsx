@@ -1,6 +1,6 @@
 import IconButton from "@mui/material/IconButton";
 import StyledEngineProvider from "@mui/material/StyledEngineProvider";
-import { CustomIconButtonProps } from "../../../@types/CustomIconButtonTypes";
+import { CustomIconButtonProps } from "../../../../@types/components/Global/CustomIconButtonTypes";
 import "./iconButton.style.css";
 
 const CustomIconButton: React.FC<CustomIconButtonProps> = ({

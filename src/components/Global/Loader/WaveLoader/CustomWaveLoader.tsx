@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import { CustomWaveLoaderProps } from "../../../@types/CustomWaveLoaderTypes";
+import { CustomWaveLoaderProps } from "../../../../@types/components/Global/CustomWaveLoaderTypes";
 import "./waveLoader.style.css";
 
 const CustomWaveLoader: React.FC<CustomWaveLoaderProps> = ({ style }) => {
